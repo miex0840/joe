@@ -1,8 +1,44 @@
+* {
+    margin: 0;
+}
+
+/* ---------- SKRIFTTYPE ------- */
+
 @font-face {
     font-family: 'besom_extendedregular';
-    src: url('besom-extended-webfont.woff2') format('woff2'),
-         url('besom-extended-webfont.woff') format('woff');
+    src: url('fonte/besom-extended-webfont.woff2') format('woff2'),
+    url('font/besom-extended-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+h1 {
+    /*font-family: 'besom_extendedregular';*/
+    font-family: 'Besom extended';
+    font-size: 3em;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#top {
+    height: 40vh;
+    width: 100%;
+    background-image: url(billeder/Purplelatte.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#top img {
+    width: 30vh;
+    padding-top: 5vh;
+}
+
+#fyld {
+    height: 150vh;
 }
