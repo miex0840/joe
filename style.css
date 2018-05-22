@@ -12,10 +12,40 @@
     font-style: normal;
 }
 
-h1 {
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
     /*font-family: 'besom_extendedregular';*/
     font-family: 'Besom extended';
     font-size: 3em;
+}
+
+nav {
+    background-color: black;
+    padding: 1em;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    …
+}
+
+nav a {
+    color: white;
+    /*font-family: 'besom_extendedregular';*/
+    font-family: 'Besom extended';
+    text-decoration: none;
+    font-size: 2em;
+    display: inline-block;
+    padding: 0 1em 0 1em;
+    align-items: center;
+}
+
+nav a:hover {
+    color: #f8d1e4;
 }
 
 .center {
