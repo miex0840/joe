@@ -3,7 +3,8 @@
 }
 
 img {
-    width: 100%;
+    width: 50vw;
+    ;
 }
 
 .wrap {
@@ -12,21 +13,14 @@ img {
 }
 
 .content {
-    flex-basis: 600px;
-    flex-grow: 2;
+    flex-basis: 500px;
+    flex-grow: 1;
+    padding: 1em;
 }
 
 .image {
-    flex-basis: 200px;
+    flex-basis: 500px;
     flex-grow: 1;
-}
-
-.light {
-    background-color: #101010;
-}
-
-.dark {
-    background-color: black;
 }
 
 /* ---------- SKRIFTTYPE ------- */
@@ -39,9 +33,14 @@ img {
     font-style: normal;
 }
 
+li {
+    color: white;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     color: white;
+    line-height: 1.5em;
 }
 
 h1,
@@ -51,6 +50,7 @@ h3 {
     font-family: 'Besom extended';
     font-size: 3em;
     color: #f8d1e4;
+    line-height: 1.2em;
 }
 
 nav {
@@ -82,6 +82,8 @@ nav a:hover {
     width: 50%;
 }
 
+/* ---------- SECTIONS ---------- */
+
 #top {
     height: 40vh;
     width: 100%;
@@ -93,10 +95,18 @@ nav a:hover {
 }
 
 #top img {
-    width: 30vh;
-    padding-top: 5vh;
+    width: 35vh;
+    padding-top: 2.5vh;
 }
 
-#fyld {
-    height: 150vh;
+#research,
+#prototype,
+#test,
+#oevrigt {
+    background-color: #171717;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
 }
