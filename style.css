@@ -27,8 +27,8 @@ img {
 
 @font-face {
     font-family: 'besom_extendedregular';
-    src: url('fonte/besom-extended-webfont.woff2') format('woff2'),
-    url('font/besom-extended-webfont.woff') format('woff');
+    src: url('besom-extended-webfont.woff2') format('woff2'),
+    url('besom-extended-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -37,17 +37,22 @@ li {
     color: white;
 }
 
-p {
+p, a {
     font-family: 'Roboto', sans-serif;
     color: white;
     line-height: 1.5em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f8d1e4;
 }
 
 h1,
 h2,
 h3 {
-    /*font-family: 'besom_extendedregular';*/
-    font-family: 'Besom extended';
+    font-family: 'besom_extendedregular';
+    /*    font-family: 'Besom extended';*/
     font-size: 3em;
     color: #f8d1e4;
     line-height: 1.2em;
@@ -63,8 +68,8 @@ nav {
 
 nav a {
     color: white;
-    /*font-family: 'besom_extendedregular';*/
-    font-family: 'Besom extended';
+    font-family: 'besom_extendedregular';
+    /*font-family: 'Besom extended';*/
     text-decoration: none;
     font-size: 2em;
     display: inline-block;
