@@ -37,7 +37,8 @@ li {
     color: white;
 }
 
-p, a {
+p,
+a {
     font-family: 'Roboto', sans-serif;
     color: white;
     line-height: 1.5em;
@@ -104,6 +105,7 @@ nav a:hover {
     padding-top: 2.5vh;
 }
 
+#video,
 #research,
 #prototype,
 #test,
